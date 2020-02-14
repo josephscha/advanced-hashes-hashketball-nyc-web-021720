@@ -193,3 +193,4 @@ def big_shoe_rebounds
     team.each do |players,value|
       if players = :players 
         values.info do |player|
+          if shoe_size
