@@ -174,9 +174,11 @@ end
 def player_stats(name)
   stats = {}
   game_hash.each do |place, team|
-    team.each do |player, value|
-      if player == :players
-        value.each do |arr|
-          return
+    team.each do |players, value|
+      if players == :players
+        value.each do |player|
+          if player[:player_name] == name 
+            stats = player.delete_if do 
+      
 
 
