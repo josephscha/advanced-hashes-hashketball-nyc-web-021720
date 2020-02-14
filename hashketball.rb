@@ -253,4 +253,5 @@ def player_with_longest_name
   end
   longest_name_player
 end
-      
+
+def long_
