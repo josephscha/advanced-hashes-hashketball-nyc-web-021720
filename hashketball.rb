@@ -232,13 +232,11 @@ def winning_team
         end
       end
     end
-      if home_team > away_team
+  end
+  if home_team > away_team
     winning_team = game_hash[:home][:team_name]
   else 
     winning_team = game_hash[:away][:team_name]
-  end
-  winning_team
-end
 end
             
             
