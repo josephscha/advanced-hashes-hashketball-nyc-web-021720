@@ -219,6 +219,7 @@ end
 def winning_team
   home_team = 0 
   away_team = 0 
+  winning_team = ""
   game_hash.each do |place, team_info|
     team_info.each do |players, value|
       if players == :players
