@@ -209,7 +209,6 @@ def most_points_scored
         if points_scored > points 
           points = player[:points]
           player = player[:player_name]
-          player
         end
       end
     end
