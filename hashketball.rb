@@ -269,4 +269,4 @@ def long_name_steals_a_ton?
   player_with_longest_name == player 
 end
 
-#Needed a lot of help on this lab. Would like to come back and review. 
+#Needed a lot of help on this lab. Must come back to review. 
