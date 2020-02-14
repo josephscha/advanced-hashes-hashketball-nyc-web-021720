@@ -237,6 +237,7 @@ def winning_team
     winning_team = game_hash[:home][:team_name]
   else 
     winning_team = game_hash[:away][:team_name]
+  end
 end
             
             
